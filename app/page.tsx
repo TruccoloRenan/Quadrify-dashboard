@@ -1,23 +1,22 @@
 import Dashboard from './components/Dashboard';
 import MenuSuperior from './components/menuSuperior';
 import MenuLateral from './components/menuLateral';
+import SearchBar from './components/searchBar';
 
 const HomePage = () => {
   return (
     <>
-      <div>
-        <div>
+      <div className='h-screen flex justify-center items-center'>
+        <MenuLateral />
+        <div className='h-screen'>
+        <div className='h-[50px]'>
+          <SearchBar />
+        </div>
           <MenuSuperior />
-          <div className='flex'>
-          <MenuLateral />
           <Dashboard />
-          </div>
-          
         </div>
       </div>
-
     </>
-
   )
 }
 export default HomePage;

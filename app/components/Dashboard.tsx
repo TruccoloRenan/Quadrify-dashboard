@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card";
-import MenuSuperior from "./menuSuperior";
 
 const Dashboard = () => {
     return (

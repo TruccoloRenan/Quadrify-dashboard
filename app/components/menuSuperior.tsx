@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react"
 import Link from "next/link"
-import { Menu, Search } from "lucide-react"
+import { Menu } from "lucide-react"
 
 
 const MenuSuperior = () => {
@@ -40,15 +40,6 @@ const MenuSuperior = () => {
                 <Link href={item.path}>{item.title}</Link>
               </li>
             ))}
-            
-            <form className="flex items-center  space-x-2 border rounded-md p-2">
-              <Search className="h-5 w-5 flex-none text-gray-300" />
-              <input
-                className="w-full outline-none appearance-none placeholder-gray-500 text-gray-500 sm:w-auto"
-                type="text"
-                placeholder="Search"
-              />
-            </form>
           </ul>
         </div>
       </div>
