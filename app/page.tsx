@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className='h-screen flex justify-center items-center'>
         <MenuLateral />
         <div className='h-screen'>
-        <div className='h-[50px]'>
+        <div className='h-[80px]'>
           <SearchBar />
         </div>
           <MenuSuperior />
